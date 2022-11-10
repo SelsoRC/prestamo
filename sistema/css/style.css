@@ -1,0 +1,238 @@
+  /************************Login****************************/
+
+ /************************Registro usuario****************************/
+ .form_register{
+     width: 450px;
+     margin: auto;
+     margin-top: 20px;
+}
+.form_register h1{
+     text-align: center;
+     font-size: 15pt;
+}
+
+ .form_register2{
+     width: 700px;
+     margin: auto;
+     margin-top: 20px;
+}
+.form_register2 h2{
+     text-align: center;
+     font-size: 15pt;
+}
+
+form{
+     background: #FFF;
+     margin: auto;
+     padding:20px 50px;
+     border-radius: 10px;
+
+    
+}
+
+
+.fecha{
+     width: 200px;
+     display: inline-block;
+}
+.a{
+
+
+}
+
+input,select, textarea{
+
+     display: block;
+     width: 100%;
+     font-size: 11pt;
+     padding: 5px;
+     border: 1px solid #85929e;
+     border-radius: 5px;
+
+}
+
+.label{
+     float: left;
+     display: block;
+     margin: auto;
+     font-size: 11pt;
+     padding: 5px;
+
+}
+.input{
+     float: left;
+     display: block;
+     width: 200px;
+     font-size: 11pt;
+     padding: 5px;
+     border: 1px solid #85929e;
+     border-radius: 5px;
+
+}
+.notItemOne option:first-child{
+     display: none;
+}
+.btn_save{
+     font-size: 12pt;
+     background: #1B396A;
+     padding: 10px;
+     color: #FFF;
+     letter-spacing: 1px;
+     border: 0;
+     cursor: pointer;
+     margin: 15px auto;
+     display: block;
+     border-radius: 5px;
+     margin-top: 30px;
+}
+.titulo {
+     width: 450px;
+     margin: auto;
+     background: #1B396A;
+     color: white;
+     padding: 5px;
+     border-radius: 5px;
+
+}
+.titulo2 {
+     width: 700px;
+     margin: auto;
+     background: #1B396A;
+     color: white;
+     padding: 5px;
+     border-radius: 5px;
+
+}
+.alerta {
+     width: 100%;
+     background: #66e07d66;
+     border-radius: 6px;
+     margin: 20px auto;
+}
+.alerta p {
+     padding: 10px;
+     text-align: center;
+ }
+
+.msg_error {
+     color: #e65656;
+}
+.msg_save {
+     color: #126e00;
+}
+.letra {
+     font-family: sans-serif;
+     font-style: italic;
+     font-weight: bold;
+     font-size: 17pt;
+     color: #1B396A;
+     margin: 0;
+}
+.link_edit{
+     background: #f39c12  ;
+     border-radius: 3px;
+     border: 1px solid transparent;
+}
+.link_print{
+     background: #1e90ff;
+     border-radius: 3px;
+     border: 1px solid transparent;
+
+}
+/*.link_devo{
+     background: #32cd32;
+     border-radius: 3px;
+     border: 1px solid transparent;
+
+}*/
+.link_delete{
+     border: 0;
+     background: #FF0000;
+      border-radius: 3px;
+     border: 1px solid transparent;
+}
+.link_prestar{
+     border: 0;
+     background: #5cb85c;
+      border-radius: 3px;
+     border: 1px solid transparent;
+}
+/*************************************Foto**********************************/
+.prevPhoto {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    height: 150px;
+    border: 1px solid #CCC;
+    position: relative;
+    cursor: pointer;
+    background: url(../images/uploads/user.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: auto;
+}
+.prevPhoto label{
+     cursor: pointer;
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 2;
+}
+.prevPhoto img{
+     width: 100%;
+     height: 100%;
+}
+.upimg, .notBlock{
+     display: none !important;
+}
+.errorArchivo{
+     font-size: 16px;
+     font-family: arial;
+     color: #cc0000;
+     text-align: center;
+     font-weight: bold; 
+     margin-top: 10px;
+}
+.delPhoto{
+     color: #FFF;
+     display: -webkit-flex;
+     display: -moz-flex;
+     display: -ms-flex;
+     display: -o-flex;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 50%;
+     width: 25px;
+     height: 25px;
+     background: red;
+     position: absolute;
+     right: -10px;
+     top: -10px;
+     z-index: 10;
+}
+#tbl_list_productos img{
+     width: 50px;
+}
+.imgProductoDelete{
+     width: 175px;
+}
+/*****************************Listar**********************/
+.img_producto {
+      width: 60px;
+     height: auto;
+     margin: auto;
+}
+#div {
+font-size: 12px;
+font-family: arial;
+padding: 0px;
+
+
+    
+}
+
+
